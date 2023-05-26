@@ -1,0 +1,247 @@
+/* Your styles here */
+@import url('https://fonts.googleapis.com/css2?family=Open+Sans&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Montserrat:wght@700&family=Open+Sans&display=swap');
+@import url('https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css');
+html{
+    margin-left: auto;
+    margin-right: auto;
+    font-size:62.5%;
+}
+    
+
+body{
+    margin: auto;
+    color:#393d41;
+    font-size: 1.2rem;
+    font-family:'Open Sans', sans-serif;
+    line-height: 1.65;
+}
+
+h1,h2,h3,h4,h5,h6{
+    color:#25a2c3;
+    line-height:1.5;
+    font-family: 'Montserrat', sans-serif;
+    
+}
+
+a {
+    text-decoration: none;
+}
+
+
+/* HEADER  */
+
+header{
+    background-color: black;
+    text-align: center;
+}
+
+.container-header{
+    text-align: center;
+}
+
+
+.container-header img{
+    width: 140px;
+    padding:1em;
+    margin:1em
+}
+
+
+
+
+/* MAIN */
+
+main{
+    text-align: center;
+}
+
+.container-1{
+    display: inline-block;
+    background-image: url(../images/banner.jpg);
+    background-position: center;
+    background-size: cover;
+    background-repeat:no-repeat;
+
+    text-align: center;
+}
+
+.container-1 h1{
+    font-size:2.5em;
+    margin:2em;
+}
+
+.container-1 p{
+    font-size:1.5em;
+    margin:2em;
+}
+
+button{
+    background-color: #f04c2f;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: bold;
+    border: none;
+    color: white;
+    height: 3rem;
+    border-radius: 8%;
+    margin:1em;
+}
+
+.container-2{
+    text-align: center;
+    padding:3em;
+
+}
+
+.container-2 h3{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.container-2 p{
+    font-size: 1.5em;
+    margin: 1.2em;
+}
+
+.img-notebook{
+    text-align: center;
+}
+
+
+#img-notebook{
+    text-align: center;
+    width: 70%;
+    border-radius: 70%;
+}
+
+.container-3{
+    text-align: center;
+    padding: 3em;
+}
+
+.container-3 h3{
+    font-size: 1.2em;
+    margin: 1em;
+}
+
+.container-3 p{
+    font-size: 1.5em;
+    margin: 1.2em;
+}
+
+.orange-container{
+    background-color: #f04c2f ;
+    padding: 1em;
+    text-align: center;
+    color: white;
+}
+
+.orange-container h2{
+    color: white;
+    font-size: 1.8em;
+    margin-bottom: 1em;
+}
+
+.orange-container > p{
+    font-style: italic;
+    font-size: 1.2rem;
+    
+}
+
+.orange-container p{
+    margin-top: 1em;
+    margin-bottom:0;
+    font-size: 1.6rem;
+}
+
+.orange-container span{
+    font-size: 0.8rem;
+}
+
+#aside{
+    padding:3em;
+}
+
+.aside-container{
+    text-align: center;
+    border: 1px solid #dee1e3;
+    display: inline-block;
+    margin-top: 1.5em;
+    margin-bottom: 1em;
+    
+}
+
+.aside-container img{
+    width: 100%;
+
+}
+aside h4 p{
+    margin-left: 1em;
+    margin-right: 1em;
+}
+
+aside h4{
+    font-size: 1.2em;
+    margin: 1em;
+   
+}
+
+aside p{
+    font-size: 1.2em;
+    margin-bottom: 1em;
+}
+
+
+/* FOOTER */
+
+footer{
+    font:  #c8e7f0;
+    padding-top:1.5rem;
+    padding-bottom: 1.5rem;
+    background-color:  #25a2c3;
+    text-align: center;
+    color: white;
+}
+
+footer h2{
+    color: white;
+}
+
+footer p{
+    margin: 0;
+}
+
+footer a{
+    color:white;
+    font-size: 0.8rem;
+
+}
+
+footer i{
+    margin-right: 0.3rem;
+
+}
+
+hr{
+    margin: 2rem;
+}
+
+.end {
+    
+    font-size: 0.8rem;
+}
+
+.end a{
+    font-size: 0.8rem;
+}
+
+
+
+
+
+
+
+
+
+
+
